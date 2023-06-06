@@ -1,0 +1,426 @@
+
+
+/* card details start  */
+.bodybg{
+    background-color: #d0d8e3 ;
+}
+.details-card {
+	background: url(https://vehicleliabilities.in/frontend/images/bg.jpg);
+}
+.card-content:hover{
+    background-color: #e95420;
+    
+}
+
+
+.card-content:hover h4{
+    color: #34495e;
+}
+.card-content:hover p{
+    color: #fff;
+}
+.card-content {
+	background: #efefef;
+	border: 4px;
+  border-radius: 10px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-desc {
+	padding: 1.25rem;
+}
+
+.card-desc h4 {
+	  color: #e95420;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 1.3em;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.card-desc p {
+	  color: #000000;
+    font-size: 16px;
+    line-height:1.15;
+    padding: 10px;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+    
+}
+.ulfont{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+}
+.pf{
+    text-align: justify;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+}
+
+.pf-li{
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif; 
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 5px;
+
+}
+
+/* End card section */
+.item {
+    background: #fff;
+    text-align: center;
+    padding: 30px 25px;
+    -webkit-box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+    box-shadow: 0 0px 25px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    border: 5px solid rgba(0, 0, 0, 0.07);
+    margin-bottom: 30px;
+    -webkit-transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0;
+    transition: all 0.5s ease 0s;
+  }
+
+  .item .icon {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #e95420;;
+    width: 90px;
+    height: 90px;
+    line-height: 96px;
+    border-radius: 50px;
+  }
+  .item .feature_box_col_one {
+    background: rgba(247, 198, 5, 0.2);
+    color: #242323;
+  }
+  .item .feature_box_col_two {
+    background: rgba(255, 77, 28, 0.15);
+    color: #242323;
+  }
+  .item .feature_box_col_three {
+    background: rgba(0, 147, 38, 0.15);
+    color: #242323;
+  }
+  
+  .item p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    line-height: 1.3rem;
+  }
+  .item h6 {
+    margin-bottom: 20px;
+    color: #2f2f2f;
+  }
+
+/**********<!--  of about page  timeline section   -->*********/
+.about-circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #070707;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-about-works.row .col-2 {
+    align-self: stretch;
+  }
+ 
+  .about-timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .about-timeline hr {
+    border-top: 5px solid #e95420;;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .about-timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .about-timeline .corner {
+    border: 5px solid #e95420;;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .about-timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .about-timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .about-timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .about-timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  .about_img {
+    margin-top: 40px;
+    margin-left: 20px;
+    background: #e95420;
+    border-radius: 100px;
+    border: #1f3e58 solid 2px;
+    margin-top: 150px;;
+}
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+    height: 450px;
+}
+/**  border-bottomss  for the defining youtube page according to the-owlet **/  
+h1.slogan {
+ 
+  font-size: 70px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  font-weight:900 ;
+  color: rgb(17, 17, 17);
+}
+h2.slog {
+  font-size: 40px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  text-align: center;
+  line-height: 1;
+  font-weight: 900;
+  color: rgb(17, 17, 17);
+  margin: 0px;
+}
+
+
+/** testimonial css */
+.testimonial-set
+{
+  text-align: left;
+  font-weight: 700;
+  color: #e95420;
+}
+
+
+
+section.fifthSec {
+  padding: 120px 0 40px;
+  position: relative;
+}
+section.fifthSec::before {
+  content: '';
+  background-image: url('');
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 100%;
+  position: absolute;
+  background-size: 100%;
+  top: 100px;
+  left: 0;
+}
+section.fifthSec p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  color: #111;
+}
+section.fifthSec .col-sm-6:first-child {
+  width: 45%;
+}
+section.fifthSec .col-sm-6:last-child {
+  width: 55%;
+}
+section.fifthSec div.secTitle {
+  margin-top: 60px;
+}
+section.fifthSec img.effImg {
+  margin-left: -40px;
+}
+section.fifthSec p,
+section.fouthSecTwo p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  color: #111;
+}
+img.icon {
+  position: absolute;
+}
+.icon19 {
+  top: -60px;
+  left: 0;
+  animation: tada 1.5s infinite ease-in-out;
+}
+
+
+/* timeline csss */
+
+.Yearly-timeline{ 
+    
+     font-family: 'Poppins', sans-serif; 
+}
+  .Yearly-timeline:after{
+      content: '';
+      display: block;
+      clear: both;
+  }
+  .Yearly-timeline .timeline{
+      width: calc(50% + 17px);
+      padding: 0 30px 30px 0;
+      float: left; 
+      position: relative;
+  }
+  .Yearly-timeline .timeline:before,
+  .Yearly-timeline .timeline:after{
+      content: '';
+      height: 60px;
+      width: 2px;
+      border-left: 2px solid #70d6ff;
+      transform: rotate(-45deg);
+      position: absolute;
+      right: 30px;
+      bottom: 0;
+  }
+  .Yearly-timeline .timeline:after{
+      background-color: #fff;
+      height: 20px;
+      width: 20px;
+      border: 6px solid #70d6ff;
+      border-radius: 50%;
+      right: 0;
+  }   
+  .Yearly-timeline .timeline-content{
+      color: #555;
+      background: #70d6ff;
+      text-align: center;
+      min-height: 170px;
+      padding: 30px 35px 35px;
+      border-radius: 15px 15px 0 15px;
+      display: block;
+      position: relative;
+      text-decoration: none;
+      z-index: 1;
+  }
+  .Yearly-timeline .timeline-content:before{
+      content: '';
+      background-color: #fff;
+      position: absolute;
+      left: 17px;
+      right: 17px;
+      top: 17px;
+      bottom: 17px;
+      z-index: -1;
+  }
+  
+  .Yearly-timeline .title{
+      font-size: 22px;
+      font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin: 0 0 8px;
+  }
+  .Yearly-timeline .description{
+      color:#000;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 0.5px;
+      line-height: 18px;
+      margin: 0;
+      text-decoration: none;
+  }
+  .Yearly-timeline .timeline:nth-child(even){
+      padding: 0 0 30px 30px;
+      float: right;
+  }
+  .Yearly-timeline .timeline:nth-child(even):before{
+      transform: rotate(45deg);
+      right: auto;
+      left: 30px;
+  }
+  .Yearly-timeline .timeline:nth-child(even):after{
+      right: auto;
+      left: 0;
+  }
+  .Yearly-timeline .timeline:nth-child(even) .timeline-content{ border-radius: 15px 15px 15px 0; }
+  .Yearly-timeline .timeline:nth-child(4n+2):before,
+  .Yearly-timeline .timeline:nth-child(4n+2):after{
+      border-color: #ff70a6;
+  }
+  .Yearly-timeline .timeline:nth-child(4n+2) .timeline-content{
+      background: #ff70a6;
+  }
+  .Yearly-timeline .timeline:nth-child(4n+3):before,
+  .Yearly-timeline .timeline:nth-child(4n+3):after{
+      border-color: #ff9770;
+  }
+  .Yearly-timeline .timeline:nth-child(4n+3) .timeline-content{
+      background: #ff9770;
+  }
+  .Yearly-timeline .timeline:nth-child(4n+4):before,
+  .Yearly-timeline .timeline:nth-child(4n+4):after{
+      border-color: #ffd670;
+  }
+  .Yearly-timeline .timeline:nth-child(4n+4) .timeline-content{
+      background:#ffd670;
+  }
+  @media screen and (max-width:767px){
+      .Yearly-timeline .timeline{
+          width: 100%;
+          padding: 30px 0 0 30px;
+          margin: 0 0 20px;
+      }   
+      .Yearly-timeline .timeline:before,
+      .Yearly-timeline .timeline:nth-child(even):before{
+          transform: rotate(-45deg);
+          bottom: auto;
+          top: 0;
+          right: auto;
+          left: 30px;
+      }
+      .Yearly-timeline .timeline:after,
+      .Yearly-timeline .timeline:nth-child(even):after{
+          bottom: auto;
+          top: 0;
+          right: auto;
+          left: 0;
+      }
+      .Yearly-timeline .timeline-content,
+      .Yearly-timeline .timeline:nth-child(even) .timeline-content{
+          border-radius: 0 15px 15px 15px;
+      }
+  }
+  .formsec
+  {
+    background-image: url('https://cdn.mypanel.link/6f7c88/mfl6p9cb0dshe9hw.png');
+    height: 100%;
+    background-size: 50%;
+    background-position-x: 150%;
+    background-repeat: no-repeat;
+  }
+  .blod-head{
+    background-color: #e95420;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 60px;
+   
+}
+h2.slog-blod {
+  font-size: 40px;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif ;
+  text-align: center;
+  line-height: 1;
+  font-weight: 900;
+  color:  #fff;
+  margin: 0px;
+}
+.choose-bg
+{
+    background-image: url(https://i.imgur.com/BhAQ4DA.png);
+    background-repeat: repeat;
+    background-size: 50%;
+    left: 0;
+    top: 0;
+}
